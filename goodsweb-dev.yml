@@ -5,11 +5,6 @@ spring:
     name: goods-page-service
   thymeleaf:
     cache: false
-    #rabbitmq:
-    #host: 192.168.228.161
-    # username: /leyou
-    #  password: leyou
-    #virtual-host: /leyou
   redis:
     host: 192.168.228.161
 eureka:
