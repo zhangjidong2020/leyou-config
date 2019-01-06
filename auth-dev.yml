@@ -24,9 +24,9 @@ leyou:
     secret: leyou@Login(Auth}*^31)&heiMa% # 登录校验的密钥
     pubKeyPath: E:\\User\\data\\rsa\\rsa.pub # 公钥地址
     priKeyPath: E:\\User\\data\\rsa\\rsa.pri # 私钥地址
-    expire: 30 # 过期时间,单位分钟
+    expire: 30000 # 过期时间,单位分钟
     cookieName: LY_TOKEN
-    cookieMaxAge: 30
+    cookieMaxAge: 30000
 
 ribbon:
   ConnectTimeout: 4000 # 连接超时时间(ms)
